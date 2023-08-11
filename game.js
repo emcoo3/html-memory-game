@@ -37,7 +37,7 @@ function checkAnswer(currentLevel) {
     } else {
       playSound("wrong");
       $("body").addClass("game-over");
-      $("#level-title").text("Kaybettiniz , tekrar başlamak için tua basın");
+      $("#level-title").text("Kaybettiniz , tekrar başlamak için tuşa basın");
 
       setTimeout(function () {
         $("body").removeClass("game-over");
